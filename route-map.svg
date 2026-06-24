@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<defs>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity=".18"/></filter>
+  <style>
+    .road{fill:none;stroke:#cfd8d7;stroke-width:42;stroke-linecap:round}
+    .minor{fill:none;stroke:#e8eeed;stroke-width:24;stroke-linecap:round}
+    .route{fill:none;stroke:#33706a;stroke-width:16;stroke-linecap:round;stroke-dasharray:22 16}
+    .label{font-family:Arial,sans-serif;font-size:28px;fill:#29423f}
+    .small{font-family:Arial,sans-serif;font-size:23px;fill:#526865}
+  </style>
+</defs>
+<rect width="1200" height="720" rx="36" fill="#f7faf9"/>
+<path class="road" d="M90 130 H1110"/>
+<path class="road" d="M200 70 V650"/>
+<path class="road" d="M820 70 V650"/>
+<path class="minor" d="M200 390 H820"/>
+<path class="minor" d="M520 130 V610"/>
+<path class="route" d="M120 130 H200 V390 H520 V540 H820"/>
+<circle cx="120" cy="130" r="20" fill="#33706a"/>
+<g transform="translate(790 510)" filter="url(#shadow)">
+  <path d="M30 0C-25 0-55 42-55 88c0 68 85 148 85 148s85-80 85-148C115 42 85 0 30 0z" fill="#d96d5c"/>
+  <circle cx="30" cy="86" r="34" fill="#fff"/>
+</g>
+<g transform="translate(70 62)">
+  <rect width="250" height="56" rx="14" fill="#fff" stroke="#d8e3e1"/>
+  <text x="18" y="37" class="small">м. «Центральная»</text>
+</g>
+<g transform="translate(835 540)">
+  <rect width="310" height="86" rx="18" fill="#fff" stroke="#d8e3e1"/>
+  <text x="20" y="34" class="small">Психологический центр</text>
+  <text x="20" y="66" class="small">ул. Гармонии, д. 15</text>
+</g>
+<text x="355" y="112" class="label">Проспект Мира</text>
+<text x="224" y="610" class="label" transform="rotate(-90 224 610)">ул. Садовая</text>
+<text x="844" y="610" class="label" transform="rotate(-90 844 610)">ул. Гармонии</text>
+<text x="560" y="375" class="small">5 минут пешком</text>
+<g transform="translate(420 455)">
+  <rect width="155" height="74" rx="16" fill="#e7f0ef"/>
+  <text x="20" y="46" class="small">Остановка</text>
+</g>
+</svg>
